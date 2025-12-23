@@ -102,7 +102,6 @@ python main.py --interactive
 ```bash
 python ui/app.py
 ```
-Access the search engine at **http://127.0.0.1:5000**.
 
 ## 9. Sample Queries & Outputs
 - **"computer graphics"**: Returns documents related to visualization and rendering (comp.graphics).
