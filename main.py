@@ -9,8 +9,8 @@ from engine.inverted_index import InvertedIndex
 from engine.search import search
 from engine.metrics import Timer, get_approx_memory_mb
 
-INDEX_FILE = "mini_search_engine/data/index.pkl"
-DATA_DIR = "mini_search_engine/data/20_newsgroups/20_newsgroups"
+INDEX_FILE = "data/index.pkl"
+DATA_DIR = "data/20_newsgroups/20_newsgroups"
 
 def main():
     parser = argparse.ArgumentParser(description="Mini Search Engine CLI")
